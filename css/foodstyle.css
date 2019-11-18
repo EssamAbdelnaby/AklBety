@@ -1,0 +1,211 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000    
+}
+
+
+/*main*/
+.logo{
+  text-align: center;
+}
+.lline{
+  position: absolute;
+  width: 40%;
+  top: 8vh;
+  border: 2px solid #ec953c;
+}
+.rline{
+  position: absolute;
+  width: 40%;
+  top: 8vh;
+  left: 0;
+  border: 2px solid #ec953c;
+}
+.menu{
+  text-align: center;
+  list-style: none;
+}
+.menu ul li{
+  display: inline-block;
+  padding: 1vh 4vh 0;
+}
+.menu ul li a{
+  font-size: 3vh;
+  color: white;
+  font-family: 'Quicksand';
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: ease-in-out 100ms;
+}
+.menu ul li a:hover{
+  color: #ec953c;
+}
+.menu ul li .active{
+  color: #ec953c;
+}
+
+
+/*landing*/
+#marginbt{
+  margin-bottom: 3vh;
+}
+.land-img-pos{
+  padding: 18vh 0vh 18vh 5vh;
+}
+.land-txt-pos{
+  padding-top: 18.5vh;
+  text-align: justify;
+  display: block;
+}
+.land-txt-pos h1{
+  font-size: 9vh;
+}
+button{
+  margin-top: 5vh;
+  padding: 1vh 2vh;
+  background-color: #00000000;
+  color: white;
+  cursor: pointer;
+  border-color: black;
+  transition: ease-in-out 100ms;
+}
+button a, a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.fbtn{
+  background-color: #ec953c;
+}
+.ebtn{
+  margin-right: 2vh;
+  border-color: white;
+}
+.ebtn:hover{
+  background-color: white;
+  color: #ec953c;
+}
+button:hover{
+  border-color: #000;
+}
+
+
+/*Content*/
+#content h2{
+  margin-bottom: 8vh;
+  text-transform: uppercase;
+  font-size: 6vh;
+}
+#content h2::after{
+  content: ' ';
+  display: block;
+  background-color: #ec953c;
+  height: 2px;
+  width: 13.5vh;
+}
+.displayText{
+  width: 70%;
+  margin: -8vh auto 13vh;
+  font-size: 4vh;
+  text-transform: uppercase;
+}
+.displayText span{
+  font-size: 8vh;
+  color: #ec953c;
+}
+.displayText span1{
+  font-size: 6vh;
+  color: #ec953c;
+}
+
+
+/*FormDesign*/
+.formDesign{
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: block;
+}
+.formDesign h2{
+  background-color: #ec953c;
+  color: white;
+  text-align: center;
+  text-transform:uppercase;
+  padding: 4vh 0;
+  margin-bottom: 2vh;
+}
+#form{
+  margin-bottom: 8vh;
+}
+form{
+  padding: 5vh;
+}
+form label{
+  color: #ec953c;
+  font-size: 2.4vh;
+}
+form button{
+  border-radius: 5px;
+}
+.form-check label{
+  color: white;
+}
+.rpizza, .lpizza{
+  position: absolute;
+}
+.rpizza{
+  width: 20%;
+  margin: 9vh auto;
+  right: 5.5vh;
+}
+.lpizza{
+  left: 5.6vh;
+  width: 20%;
+  overflow: hidden;
+}
+
+/*Footer*/
+#footer{
+  background-color: #111111;
+  bottom: 0;
+  padding: 3vh 0;
+}
+.footerText{
+  padding-bottom: 2vh;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+
+/*Successful*/
+.bg-pizza{
+  background: url('https://i.postimg.cc/1tcRYdzn/4.jpg');
+  height: 72vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.layer{
+  background-color: #ec953c5e;
+  height: 72vh;
+}
+.successfulBox{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 6vh;
+  width: 50%;
+  padding-top: 8vh;
+}
